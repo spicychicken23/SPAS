@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#calendar {
+  background-color: #F9F6F0; /* Change to your desired color */
+  border-radius: 10px; /* Add rounded edges */
+  max-width: 100%;
+  overflow-x: auto;
+}
+  
+.container-fluid {
+  display: flex;
+}
+
+
+  .fc-event, .fc-day, .fc-axis {
+    border-color: #171515; /* Set the border color to black for events, days, and axes */
+  }
+  
+  .fc-toolbar {
+    background-color: #171515; /* Set the toolbar background color to black */
+    color: #F9F6F0; /* Set the toolbar text color to white */
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .fc-toolbar button {
+    color: #171515; /* Set the toolbar button text color to white */
+  }
+  
+  .fc-state-active, .fc-state-hover, .fc-button-group button:hover {
+    background-color: #F9F6F0; /* Set the background color for active/hover state */
+    color: #F9F6F0; /* Set the text color for active/hover state */
+  }
+
+  .fc-day {
+    border: 1px solid #171515 !important; /* Set the border color to black for day cells */
+  }
+
+  /* styles.css */
+.fc-day-header {
+    background-color: #171515; /* Set the background color to black for day headers */
+    color: #F9F6F0; /* Set the text color to white for better visibility */
+    border: 1px solid #171515 !important;
+}

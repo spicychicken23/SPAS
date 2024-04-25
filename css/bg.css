@@ -1,0 +1,326 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171515;
+}
+
+.background {
+    background-color: #C4AE78;
+    font-family: 'Lato';
+}
+
+.accordion {
+    --bs-accordion-btn-bg: #C4AE78;
+    --bs-accordion-active-bg: #C4AE78;
+    --bs-accordion-active-color: #C4AE78;
+    --bs-accordion-bg: #C4AE78;
+    --bs-accordion-color: #C4AE78;
+  }
+
+/*
+.btn {
+    background-color: #6F5B3E;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+    border-color: #171515;
+    color: #F9F6F0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn:hover {
+    background-color: #F9F6F0;
+    color: #6F5B3E;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
+}
+.btn:active {
+    background-color: #171515;
+    color: #F9F6F0;
+    box-shadow: 0 .1rem .25rem rgba(0, 0, 0, 0.1);
+}
+.btn:focus {
+    outline: none;
+    background-color: #171515;
+    color: #F9F6F0;
+}
+*/
+.myAttendance {
+    font-size: 1.5vw;
+}
+.manageIcons {
+    font-size: 1.25rem;
+}
+.analyseIcons {
+    font-size: 1rem;
+}
+
+.smk {
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F9F6F0;
+}
+
+.logo {
+    width: auto;
+    height: 3.125rem;
+    margin-left: 0.5rem;
+}
+
+.logoSys {
+    width: auto;
+    height: 4.375rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.logoutIcon {
+    font-size: 1.875rem;
+    margin-right: 1rem;
+    color: #F9F6F0;
+}
+
+.naviBar {
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.naviBar a:link,
+.naviBar a:visited,
+.naviBar a:active {
+    font-family: 'Lato';
+    color: #F9F6F0;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1500px) {
+    .naviBar a:link,
+    .naviBar a:visited,
+    .naviBar a:active {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .naviBar a:link,
+    .naviBar a:visited,
+    .naviBar a:active {
+        font-size: 0.5rem;
+    }
+
+    .logoSys {
+        width: auto;
+        height: 2.5rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+    }
+
+    .logo {
+        width: auto;
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .smk {
+        font-family: 'Lato';
+        font-size: 0.5rem;
+        font-weight: bold;
+        color: #F9F6F0;
+    }
+}
+
+.naviBar a:hover {
+    color: #171515;
+    background-color: #F9F6F0 ;
+    border-radius: 0.7vw;
+}
+.login {
+    background-color: #F9F6F0;
+    font-family: 'Lato';
+    border-radius: 3.125rem;
+    border: #6F5B3E;
+}
+.bg1 {
+    background-color: #171515;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1.25rem;
+    margin: 1.25rem;
+    }
+
+.bg2 {
+    background-color: #171515;
+    margin: 1.25rem;
+    border-radius: 1.25rem;
+    color: #F9F6F0;
+    font-family: 'Lato';
+    padding: 2.1875rem;
+}
+
+.bg3 {
+    margin: 1.25rem;
+}
+
+h0 {
+    font-family: 'Lato';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+
+h3 {
+    font-family: 'Lato';
+    font-size: 1.25rem;
+}
+
+.buttons {
+    color: #000000;
+}
+hr {
+    border: 5px solid #F9F6F0;
+}
+.table-wrapper {
+    max-height: 3.125rem;
+    overflow-y: scroll;
+}
+
+.dropdown-menu {
+    background-color: #171515; /* Replace with your desired color */
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: #6F5B3E;
+    border-color: #171515;
+}
+
+.greet {
+    font-family: 'Lato';
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 1.875rem;
+    display: block;
+    margin: 0 auto 0.625rem;
+    padding: 0.25rem;
+}
+
+.btn-dark:hover .icon {
+    color: #6F5B3E;
+}
+
+.btn-dark:hover .text {
+    color: #6F5B3E;
+}
+
+.btn-dark:hover {
+    background-color: #F9F6F0;
+}
+
+.calenderIcon {
+    background-color: #6F5B3E;
+    color: #F9F6F0;
+}
+
+.text {
+    display: block;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #F9F6F0;
+}
+
+.stats {
+    background-color: #171515;
+    color: #F9F6F0;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    font-size: 0.25rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.iconStats {
+    text-align: right;
+    background-color: #6F5B3E;
+    font-size: 5rem;
+    color: #F9F6F0;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    padding-top: 0.625rem; 
+}
+
+.hidden {
+    display: none;
+}
+
+.details {
+    /*background: linear-gradient(to bottom, #C4AE78, #6F5B3E);*/
+    background-color: #171515;
+    color: #F9F6F0;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding-top: 0.125rem; 
+    padding-bottom: 0.125rem;
+}
+
+.iconDetails{
+    text-align: right;
+    background-color: #171515;
+    font-size: 0.625rem;
+    color: #171515;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+.testDetails {
+    background-color: #F9F6F0;
+    padding-top: 0.3125rem; 
+    padding-bottom: 0.3125rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+
+.myAttendanceIcon {
+    font-size: 3rem;
+    color: #F9F6F0;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.myAttendanceTitle {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    padding-top: 0.4rem;
+    color: #F9F6F0;
+    font-weight: bold;
+}
+
+.myAttendanceBox {
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #171515;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
